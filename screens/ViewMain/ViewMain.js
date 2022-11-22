@@ -49,7 +49,7 @@ const ViewMain = () => {
     <View style={styles.container}>
       <View style={styles.itemCard}>
         <FlatList
-        
+
           data={list}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}

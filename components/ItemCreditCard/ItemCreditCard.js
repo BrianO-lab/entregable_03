@@ -7,7 +7,7 @@ const ItemCreditCard = (props) => {
   return (
     <View style={styles.itemCreditCard}>
       <View style={styles.itemCreditCardContainer} >
-       <TouchableOpacity style={styles.textContainer}>
+        <TouchableOpacity style={styles.textContainer}>
           <Text style={styles.text}>Terminada en {value}</Text>
           <Text style={styles.text}>$12345</Text>
         </TouchableOpacity>
